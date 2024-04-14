@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css"> <!-- Link to external CSS file -->
+  <script src="slides.js"></script>
+</head>
+<body>
 
+  <div class="container">
+    <div class="profile" id="home">
+      <img src="Indu1.jpg" alt="Profile Picture">
+      <h1>Indu Gundam</h1>
+      <h2>Student</h2>
+      <div class="navigation">
+        <button><a href="#about me" class="nav-button">About</a></button>
+        <button><a href="#skills" class="nav-button">Skills</a></button>
+        <button><a href="#projects" class="nav-button">Projects</a></button>
+        <button><a href="#contact me" class="nav-button">Contact</a></button>
+      </div>
+    </div>
+    <div class="resume-button">
+      <button>
+        <a href="Resume.pdf" alt="Resume">Resume</a>
+      </button>
+    </div>
+    <div class="intro" id="about">
+      <h2>About Me</h2>
+      <p>As a second-year B.Tech student, I'm driven to apply my academic knowledge
+         practically. I possess a growing proficiency in various software and applications,
+          gained through both coursework and hands-on experience. My ability to tackle
+           challenges head-on and adapt quickly has been refined through my studies.
+            Additionally, I've developed strong time management skills, balancing academic
+             commitments with extracurricular activities. Eager to continue learning and
+              contribute meaningfully in professional environments</p>
+      <!-- Navigation Buttons -->
+    </div>
+    <div class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skill">
+        <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg" alt="Java Logo">
+        <p>Java</p>
+      </div>
+      <div class="skill">
+        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" alt="SQL Logo">
+        <p>SQL</p>
+      </div>
+      <div class="skill">
+        <img src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/revision/latest?cb=20210514134203" alt="HTML Logo">
+        <p>HTML</p>
+      </div>
+      <div class="skill">
+        <img src="https://diziglobalsolution.com/wp-content/uploads/2023/04/logo-css-3-1536.png" alt="CSS Logo">
+        <p>CSS</p>
+      </div>
+      <div class="skill">
+        <img src="https://www.tutorsvalley.in/public/storage/uploads/course/1632939851-ms-office.jpg" alt="MS Office Logo">
+        <p>MS Office</p>
+      </div>
+    </div>
+    <div class="project" id="projects">
+      <h2>Projects</h2>
+      <h3>1.Expense Tracker</h3>
+      <p>The Django expense tracker project is a web application enabling users to
+        manage expenses efficiently. Users can create an account, log in, and record 
+        expenses, specifying amount, category, date, and description. The app allows 
+        viewing, editing, and deleting expenses, with options to filter by category or
+         date range.</p>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2023/06/expense-tracker-output-scaled.webp">
+        </div>
+        <div class="mySlides fade">
+          <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2023/06/django-expense-tracker-app-project-output-scaled.webp">
+        </div>
+        <div class="mySlides fade">
+          <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2023/06/django-expense-tracker-output-scaled.webp">
+        </div>
+        <div class="mySlides fade">
+          <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2023/06/django-expense-tracker-project-output-scaled.webp">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <h3>2. File Search Application</h3>
+      <p>The application efficiently retrieves file paths by accepting filenames as input.
+         It scans directories, pinpointing matches and delivering their paths. This 
+         streamlined process eliminates manual search efforts. Additionally, it offers 
+         informative feedback in case of any encountered issues.</p>
+         <div class="file">
+          <img src="file.png">
+        </div>
+      </div>
+      <div class="certifications">
+        <h2>Certifications</h2>
+        <button><a href="https://www.sololearn.com/certificates/CC-DTYSTMQF">Introduction to HTML</a></button>
+        <button><a href="https://www.sololearn.com/certificates/CC-ZARVL3VH">Introduction to CSS</a></button>
+        <button><a href="https://www.sololearn.com/en/certificates/CC-MC4UNYAW">Introduction to JavaScript</a></button>
+        <button><a href="https://www.cloudskillsboost.google/public_profiles/41e9a973-d741-4d17-92f1-a5ebfb643e48">Google cloud study Jams</a></button>
+    </div>
+    <div class="Contact" id="contact me">
+      <h2>Contact me</h2>
+      <div class="logos">
+          <a href="https://www.linkedin.com/in/indu-gundam-114788262/" target="_blank">
+              <img src="linkedinlogo.png" alt="LinkedIn Logo" width="70" height="60">
+          </a>
+          <a href="https://github.com/" target="_blank">
+              <img src="githublogo.png" alt="GitHub Logo" width="80" height="80">
+          </a>
+      </div>
+  </div>
+  <div class="copy">
+    <p>All rights reserved &copy; 2024 Indu Gundam</p>
+  </div>
+</div>
+  </body>
+
+</html>

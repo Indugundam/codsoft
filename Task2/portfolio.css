@@ -1,0 +1,260 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        position: relative;
+        background-image: url('https://img.freepik.com/free-vector/simple-blue-gradient-background-vector-business_53876-166894.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1712880000&semt=ais'); /* Add the background image URL */
+        background-size: cover; /* Ensures the image covers the entire background */
+      }
+      
+      
+    .profile {
+      position: relative;
+      text-align: right; /* Aligning text to the right */
+    }
+    .profile h1 {
+      margin-top: 50px;
+      text-align: center;
+    }
+    .profile h2 {
+      margin-bottom: 40px;
+      text-align:center ;
+    }
+    .intro {
+      padding: 40px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+      .intro h2{
+        text-decoration: underline;
+        text-align: center;
+      }
+      
+  
+    .profile img {
+        border-radius: 50%;
+        width: 150px; /* Adjust size as needed */
+        height: 150px; /* Adjust size as needed */
+        object-fit: cover; /* Ensures the image covers the entire circle */
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0px; /* Adjust as needed */
+        margin-right: 20px; /* Adjust as needed */
+        margin-bottom: 10px;
+      }
+      .skills {
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+      }
+      .skills h2{
+        text-decoration: underline;
+      }
+      
+      .skill {
+        display: inline-block;
+        margin-right: 20px;
+        text-align: center;
+      }
+      
+      .skill img {
+        width: 100px; /* Adjust size as needed */
+        height: 100px; /* Adjust size as needed */
+        background: none;
+      }
+      
+      .skill p {
+        margin-top: 5px;
+      }
+      .navigation {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      .nav-button {
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #78b3f3;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px; /* Enlarge font size */
+        margin-bottom: 20px;
+      }
+      
+      .nav-button:hover {
+        background-color: #8fc0f4;
+      }
+      
+      /* Remove underline from links */
+      .navigation a {
+        text-decoration: none;
+      }
+      .projects{
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+      /* Slideshow container */
+       .project h2{
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: underline;
+       }
+
+/* Style the images */
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+/* Fade animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Navigation arrows style */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.file{
+  text-align: center;
+}
+.resume-button {
+  text-align: center;
+}
+.resume-button button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #78b3f3;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Enlarge font size */
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px rgba(34, 2, 2, 0.775);
+}
+.resume-button button:hover {
+  background-color: #b0cfe4; /* Change background color on hover */
+}
+.Contact h2{
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.Contact {
+  text-align: center;
+  padding-left: 20px;
+  padding-bottom: 10px;/* Center align the content */
+}
+
+.logos {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; 
+  align-items: center; /* Center the logos horizontally */
+}
+
+.logos a {
+  margin: 20px 10px; /* Add margin between the logos */
+}
+
+.project{
+  padding-left: 20px;
+}
+.certifications {
+  margin-top: 20px;
+  text-align: center;
+  color:black;
+}
+
+.certifications h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.certifications button {
+  width: 100px; /* Set your desired width and height */
+  height: 100px;
+  border-radius: 60%; /* Makes the button circular */
+  background-color: #92c1f3; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  border: none; /* Remove default button border */
+  font-size: 16px; /* Set your desired font size */
+  cursor: pointer; 
+  text-decoration: none;
+  margin-right: 40px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(34, 2, 2, 0.775);
+}
+.button-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.certifications button:hover {
+  background-color: #cddcdc;
+}
+a{
+  text-decoration: none;
+}
+a button {
+  color: #ffffff; /* Set the text color to white */
+}
+.copy{
+  text-align: center;
+  font-style:italic ;
+}
