@@ -1,0 +1,176 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 226, 233); /* Set background color to violet */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add padding to create space below the frame */
+}
+
+.frame {
+    position: relative; /* Ensure relative positioning for absolute elements */
+    background-color: #fff; /* Set frame background color to white */
+    width: 80%; /* Set width of the frame */
+    max-width: 1200px; /* Limit the maximum width of the frame */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect to the frame */
+    margin-bottom: 20px; /* Add some space below the frame */
+}
+
+.main-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+.sub-image {
+    width:30%;
+    height:auto;
+    padding-bottom: 0%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    color: white;
+    font-size: 24px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #4CAF50;
+}
+
+/* You can add FontAwesome icons using the classes provided by FontAwesome */
+/* Additional CSS for container and background image */
+
+.originals-heading {
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+}
+
+.options-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+}
+
+.option a {
+    color: black; /* Set text color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+.option {
+    color: black;
+    margin-left: 10px;
+}
+
+.search-icon {
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures images stay in a single row */
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+    padding: 20px;
+    background-color: #6a797c; /* Adjust background color as needed */
+    width:1130px;
+}
+
+.image-container {
+    margin: 0 10px; /* Add margin to separate images */
+    text-align: center; /* Center align the image and heading */
+}
+
+.image {
+    width: 100%; /* Set width for all images */
+    height: 200px; /* Maintain aspect ratio */
+}
+
+.image-heading a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: black; /* Set text color to black */
+}
+
+/* Adjust positioning and styling for new arrivals heading */
+.new-arrivals-heading {
+    text-align: center;
+    margin-top: 10px; /* Reduce margin to bring the heading closer to the sub-image */
+}
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999; /* Ensures logo appears above other content */
+}
+
+.logo {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: none;
+}
+
+.frame {
+    position: relative;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    width: 30px; /* Adjust the width of the logo as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin between the logo and the text */
+}
